@@ -1,71 +1,65 @@
-# vscode-accessibility-assistant README
+# VS Code Accessibility Assistant
 
-This is the README for your extension "vscode-accessibility-assistant". After writing up a brief description, we recommend including the following sections.
+> Assist developers in authoring accessible UI by surfacing ARIA patterns, POUR principles, and accessibility checks.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Insert ARIA pattern snippets with guidance
+- Commands for accessible button, dialog, form field, menu, and disclosure
+- Quick fixes for common accessibility mistakes (coming soon)
+- Auditor to scan code for accessibility issues (coming soon)
 
-For example if there is an image subfolder under your extension project workspace:
+## Getting Started
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Install Node LTS
+2. Clone this repo
+3. Run `npm install`
+4. Press F5 in VS Code to launch the extension in a dev window
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Available Commands & Snippets
 
-## Requirements
+Use the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) and search for:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- **Insert ARIA Button Snippet**
+  - `<button aria-pressed="false" aria-label="Toggle">Toggle</button>`
+  - Accessible toggle button with ARIA attributes
 
-## Extension Settings
+- **Insert ARIA Dialog Snippet**
+  - Accessible modal dialog pattern with ARIA roles, labels, and description linkage
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+- **Insert ARIA Form Field Snippet**
+  - `<label for="username" id="usernameLabel">Username</label>`
+  - `<input id="username" aria-labelledby="usernameLabel" aria-describedby="usernameDesc" />`
+  - `<div id="usernameDesc">Enter your username.</div>`
+  - Accessible form field with label and description linkage
 
-For example:
+- **Insert ARIA Menu Snippet**
+  - Accessible menu pattern with ARIA roles and labels
 
-This extension contributes the following settings:
+- **Insert ARIA Disclosure Snippet**
+  - Accessible disclosure (accordion) pattern with ARIA attributes
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Accessibility Principles
 
-## Known Issues
+This extension helps you follow ARIA and POUR (Perceivable, Operable, Understandable, Robust) principles for accessible web UI.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Documentation
 
-## Release Notes
+- See `docs/` for design decisions, roadmap, and ADRs
+- See `CHANGELOG.md` for release history
+- See `CONTRIBUTING.md` for contribution guidelines
 
-Users appreciate release notes as you update your extension.
+## License
 
-### 1.0.0
+MIT
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
+- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
+- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
