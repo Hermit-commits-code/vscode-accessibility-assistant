@@ -1,0 +1,10 @@
+{
+  "ariaDisclosure": {
+    "prefix": "aria-disclosure",
+    "body": [
+      "<button aria-expanded=\"false\" aria-controls=\"section1\">Show More</button>",
+      "<div id=\"section1\" hidden>Hidden content goes here.</div>"
+    ],
+    "description": "Accessible disclosure (accordion) pattern with ARIA attributes."
+  }
+}

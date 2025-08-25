@@ -1,0 +1,13 @@
+{
+  "ariaMenu": {
+    "prefix": "aria-menu",
+    "body": [
+      "<div role=\"menu\" aria-label=\"Main Menu\">",
+      "  <button role=\"menuitem\" aria-label=\"Home\">Home</button>",
+      "  <button role=\"menuitem\" aria-label=\"Profile\">Profile</button>",
+      "  <button role=\"menuitem\" aria-label=\"Settings\">Settings</button>",
+      "</div>"
+    ],
+    "description": "Accessible menu pattern with ARIA roles and labels."
+  }
+}
