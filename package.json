@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscode-accessibility-assistant.helloWorld",
-        "title": "Hello World"
+        "command": "accessibilityAssistant.quickFixes",
+        "title": "Run Quick Accessibility Fixes"
       },
       {
         "command": "accessibilityAssistant.insertAriaButton",
