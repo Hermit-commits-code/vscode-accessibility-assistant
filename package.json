@@ -16,6 +16,10 @@
       {
         "command": "vscode-accessibility-assistant.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "accessibilityAssistant.insertAriaButton",
+        "title": "Insert ARIA Button Snippet"
       }
     ]
   },
