@@ -1,6 +1,6 @@
 # Contributing Guide
 
-Thanks for your interest! This project follows these conventions:
+Thank you for your interest! This project follows these conventions:
 
 - **Branching:**
   - `main` is protected.
