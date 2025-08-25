@@ -17,6 +17,10 @@ Thank you for your interest! This project follows these conventions:
   - Include docs/tests if applicable
   - Use PR checklist
 
+- **Snippets & Commands:**
+  - Add new ARIA patterns as both snippets and commands
+  - Update documentation and tests for new features
+
 - **Documentation:**
   - Major decisions are recorded as ADRs in `docs/adr/`
   - Follow semantic versioning and Keep a Changelog style

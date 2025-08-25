@@ -5,6 +5,9 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+- Add ARIA button, dialog, form field, menu, and disclosure snippets and commands
+- Update README and documentation for new features
+- Prepare for quick fixes and auditor logic
 - Add ADR template and initial repo structure ADR
 - Update documentation files for clarity and conventions
 
