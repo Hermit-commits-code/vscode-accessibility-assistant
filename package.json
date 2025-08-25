@@ -2,7 +2,7 @@
   "name": "vscode-accessibility-assistant",
   "displayName": "VS Code Accessibility Assistant",
   "description": "Assist applying ARIA + POUR accessibility patterns",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.103.0"
   },
