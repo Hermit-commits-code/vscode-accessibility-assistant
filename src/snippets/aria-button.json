@@ -1,0 +1,7 @@
+{
+  "ariaButton": {
+    "prefix": "aria-button",
+    "body": ["<button aria-pressed=\"false\" aria-label=\"Toggle\">Toggle</button>"],
+    "description": "Accessible button with aria-pressed and aria-label."
+  }
+}
