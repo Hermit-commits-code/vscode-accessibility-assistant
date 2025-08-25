@@ -1,0 +1,13 @@
+{
+  "ariaDialog": {
+    "prefix": "aria-dialog",
+    "body": [
+      "<div role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"dialogTitle\" aria-describedby=\"dialogDesc\">",
+      "  <h2 id=\"dialogTitle\">Dialog Title</h2>",
+      "  <div id=\"dialogDesc\">Dialog description goes here.</div>",
+      "  <button aria-label=\"Close dialog\">Close</button>",
+      "</div>"
+    ],
+    "description": "Accessible modal dialog pattern with ARIA attributes."
+  }
+}
