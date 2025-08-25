@@ -1,43 +1,34 @@
-# vscode-accessibility-assistant README
+# VS Code Accessibility Assistant
 
-This is the README for your extension "vscode-accessibility-assistant". After writing up a brief description, we recommend including the following sections.
+> Personal resume project focused on accessibility best practices (ARIA + POUR), built as a Visual Studio Code extension.
 
-## Features
+## Features (MVP)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Insert ARIA patterns/snippets with guidance
+- Hover/help docs for common components (buttons, dialogs, menus, form fields)
+- Quick fixes for common mistakes (e.g., missing aria-label on icons, incorrect role)
+- Auditor: scans active editor text and highlights likely accessibility issues
 
-For example if there is an image subfolder under your extension project workspace:
+## Getting Started
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Install Node LTS
+2. Clone this repo
+3. Run `npm install`
+4. Press F5 in VS Code to launch the extension in a dev window
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Accessibility Principles
 
-## Requirements
+This extension helps developers author accessible UI by surfacing tips, snippets, and checks aligned with ARIA and POUR (Perceivable, Operable, Understandable, Robust) principles.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Documentation
 
-## Extension Settings
+- See `docs/` for design decisions, roadmap, and ADRs
+- See `CHANGELOG.md` for release history
+- See `CONTRIBUTING.md` for contribution guidelines
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## License
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
+MIT
 
 ### 1.0.1
 
@@ -53,19 +44,19 @@ Added features X, Y, and Z.
 
 Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+- [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
+- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
+- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
