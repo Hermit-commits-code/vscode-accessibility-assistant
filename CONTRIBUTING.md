@@ -1,21 +1,27 @@
 # Contributing Guide
 
-Thanks for your interest! This project follows these conventions:
+Thank you for your interest! This project follows these conventions:
 
 - **Branching:**
-- `main` is protected.
-- Feature branches: `feat/<topic>`
-- Fix branches: `fix/<topic>`
+  - `main` is protected.
+  - Feature branches: `feat/<topic>`
+  - Fix branches: `fix/<topic>`
+  - Docs/Chore/Test: `docs/<topic>`, `chore/<topic>`, `test/<topic>`
 
 - **Commits:** Use [Conventional Commits](https://www.conventionalcommits.org/).
-- Example: `feat(snippets): add button aria-pressed example`
+  - Example: `feat(snippets): add button aria-pressed example`
 
 - **Pull Requests:**
-- One logical change per PR.
-- Title must follow Conventional Commit format.
-- Include docs/tests if applicable.
+  - One logical change per PR
+  - Title must follow Conventional Commit format
+  - Include docs/tests if applicable
+  - Use PR checklist
 
-- **Code Style:** TypeScript + ESLint + Prettier.
+- **Documentation:**
+  - Major decisions are recorded as ADRs in `docs/adr/`
+  - Follow semantic versioning and Keep a Changelog style
+
+- **Code Style:** TypeScript + ESLint + Prettier
 
 ## Development Setup
 
