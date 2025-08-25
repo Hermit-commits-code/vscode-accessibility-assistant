@@ -1,0 +1,11 @@
+{
+  "ariaFormField": {
+    "prefix": "aria-form-field",
+    "body": [
+      "<label for=\"username\" id=\"usernameLabel\">Username</label>",
+      "<input id=\"username\" aria-labelledby=\"usernameLabel\" aria-describedby=\"usernameDesc\" />",
+      "<div id=\"usernameDesc\">Enter your username.</div>"
+    ],
+    "description": "Accessible form field with label and description linkage."
+  }
+}

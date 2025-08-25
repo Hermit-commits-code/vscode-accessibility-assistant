@@ -20,6 +20,22 @@
       {
         "command": "accessibilityAssistant.insertAriaButton",
         "title": "Insert ARIA Button Snippet"
+      },
+      {
+        "command": "accessibilityAssistant.insertAriaDialog",
+        "title": "Insert ARIA Dialog Snippet"
+      },
+      {
+        "command": "accessibilityAssistant.insertAriaFormField",
+        "title": "Insert ARIA Form Field Snippet"
+      },
+      {
+        "command": "accessibilityAssistant.insertAriaMenu",
+        "title": "Insert ARIA Menu Snippet"
+      },
+      {
+        "command": "accessibilityAssistant.insertAriaDisclosure",
+        "title": "Insert ARIA Disclosure Snippet"
       }
     ]
   },
