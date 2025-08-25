@@ -5,8 +5,16 @@
 ## Features (MVP)
 
 - Hover/help docs for common components (buttons, dialogs, menus, form fields)
-- Quick fixes for common mistakes (e.g., missing aria-label on icons, incorrect role)
+- Quick fixes for common accessibility mistakes:
+  - Missing aria-label on icons/images
+  - Missing aria-describedby on form elements
+  - Incorrect heading structure (skipped heading levels)
+  - Inputs missing associated <label>
 - Auditor: scans active editor text and highlights likely accessibility issues
+
+## Roadmap
+
+See [ROADMAP.md](./ROADMAP.md) for planned features, improvements, and future ideas for v0.2.0 and beyond.
 
 ## Getting Started
 
@@ -32,7 +40,12 @@ Use the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) and search for:
 - **Insert ARIA Disclosure Snippet**
   - Accessible disclosure (accordion) pattern with ARIA attributes
 - **Quick Fixes**
-  - Detects and suggests fixes for missing aria-labels, incorrect roles, and other common accessibility mistakes
+  - Detects and suggests fixes for:
+    - Missing aria-labels on role="img" elements
+    - Missing aria-describedby on form elements
+    - Incorrect heading structure (skipped heading levels)
+    - Inputs missing associated <label>
+  - Results are shown in the Accessibility Quick Fixes output channel
 - **Auditor**
   - Scans the active editor for accessibility issues and highlights likely problems
 
